@@ -7,7 +7,7 @@ const char* password = "12345678";
 
 ESP8266WebServer server(80);
 
-const int pump = 2;
+const int pump = 8;
 static const String page PROGMEM = "<h1>Water Pump Controller</h1><p><a href=\"PumpOn\"><button>ON</button></a>&nbsp;<a href=\"PumpOff\"><button>OFF</button></a></p>";
  
 void setup(void) {
